@@ -10,6 +10,9 @@ class FirstApp extends StatelessWidget {
         appBar: AppBar(
           title:Center(child: Text('I AM RICH'),),
         ),
+        body: Center(
+          child: Image.asset('images/money.jpg'),
+        ),
       ),
     );
   }
